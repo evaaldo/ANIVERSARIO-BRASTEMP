@@ -7,6 +7,8 @@
 
 <p><strong>✦ Como acessar:</strong> Para ter acesso, basta clicar no link do deploy: https://aniversario-brastemp.vercel.app</p>
 
+<p><strong>✦ O que aprendi:</strong> Pude aprender mais sobre responsividade, algo que sempre coloco em prática em meus projetos e também pude ter mais contato com o figma, me acostumando cada vez mais com a ferramenta colaborativa tão importante na área de desenvolvimento web.</p>
+
 <h1>Imagens do projeto</h1>
 
 ![teste tecnico 1](https://user-images.githubusercontent.com/110418142/208999771-f4d6fbb0-4338-4f1c-86e0-6ba3099a5fd5.png)
