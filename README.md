@@ -5,7 +5,7 @@
 
 <p><strong>✦ Como usar:</strong> O código está bem dividido em torno do css, sendo cada arquivo para cada div/section especifica do html. Além disso, o javascript se resume ao dark mode e está implementado dentro da pasta js no arquivo index.js</p>
 
-<p><strong>✦ Como acessar:</strong> Para ter acesso, basta clicar no link do deploy: aniversario-brastemp.vercel.app</p>
+<p><strong>✦ Como acessar:</strong> Para ter acesso, basta clicar no link do deploy: https://aniversario-brastemp.vercel.app</p>
 
 <h1>Imagens do projeto</h1>
 
