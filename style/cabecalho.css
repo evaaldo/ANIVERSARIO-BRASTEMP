@@ -27,6 +27,12 @@
     text-transform: uppercase;
     font-size: 1.1em;
     border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+#btnChangeTheme {
+    display: none;
 }
 
 @media screen and (min-width: 1024px) {
@@ -60,6 +66,8 @@
         text-transform: uppercase;
         font-size: 1.1em;
         border: none;
+        text-align: center;
+        cursor: pointer;
     }
 
     .cabecalho {

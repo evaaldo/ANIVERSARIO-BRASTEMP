@@ -1,5 +1,6 @@
 .contato {
     background-color: var(--cinza-fundo);
+    padding-bottom: 1em;
 }
 
 .contato-dados {

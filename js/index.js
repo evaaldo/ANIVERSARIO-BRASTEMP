@@ -1,19 +1,12 @@
 const btn = document.getElementById('btnChangeTheme')
 
 
-function changeColor() {
+function toggleDarkTheme() {
+    document.body.classList.toggle('dark');
+};
 
-    if(document.body.style.backgroundColor === 'var(--cinza-fundo)') {
-        document.body.style.backgroundColor = 'var(--preto-fundo)'       
-    } else {
-        document.body.style.backgroundColor = 'var(--cinza-fundo)'
-    }
+btn.addEventListener('change', function() {
 
+    toggleDarkTheme();
 
-}
-
-btn.addEventListener('click', function() {
-
-    changeColor()
-
-})
+});

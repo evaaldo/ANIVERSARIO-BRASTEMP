@@ -1,0 +1,30 @@
+.dark{
+    background-color: var(--preto-fundo);
+    color: white;
+}
+
+.fa-moon {
+    display: none;
+}
+
+.dark .fa-sun {
+    display: none;
+    color: var(--preto);
+}
+
+.dark .fa-moon {
+    display: block;
+}
+
+.dark .mostruario {
+    background-color: var(--cinza-dark);
+}
+
+.dark .contato {
+    background-color: var(--cinza-dark);
+}
+
+.dark .produtos-textos__detalhes {
+    color: var(--branco);
+    opacity: .7;
+}

@@ -5,6 +5,7 @@
 @import url(/style/detalhes.css);
 @import url(/style/contato.css);
 @import url(/style/rodape.css);
+@import url(/style/dark.css);
 
 * {
     padding: 0;
@@ -20,11 +21,13 @@
     --cinza: #5E5E5E;
     --laranja-escuro: #EB5628;
     --preto-fundo: #1d1d1b;
+    --cinza-dark: #383838;
 }
 
 body {
     background-color: var(--cinza-fundo);
     font-family: 'Arial';
+    transition: .4s;
 }
 
 button {
@@ -35,4 +38,5 @@ button {
 button:hover {
     opacity: .8;
 }
+
 
