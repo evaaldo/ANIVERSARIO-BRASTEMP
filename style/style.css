@@ -24,6 +24,10 @@
     --cinza-dark: #383838;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--cinza-fundo);
     font-family: 'Arial';
