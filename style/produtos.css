@@ -179,6 +179,10 @@
         flex-direction: column;
     }
 
+    .produto {
+        gap: 3em;
+    }
+
     .produto-1__2 {
         flex-direction: row;
         gap: 10em;
@@ -206,6 +210,22 @@
         justify-content: center;
         align-items: center;
         gap: 12em;
+    }
+
+    .selecao-produto-textos {
+        margin-top: 1em;
+    }
+
+    .produtos-textos__titulo {
+        font-size: 2em
+    }
+
+    .produtos-textos__subtitulo {
+        font-size: 1.2em;
+    }
+
+    .produtos-textos__detalhes {
+        font-size: 1.3em;
     }
 
 }

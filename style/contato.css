@@ -84,6 +84,7 @@
 
     .contato-dados-numero {
         width: 50%;
+        gap: 2em;
     }
 
     .linha-contato__desktop {
@@ -96,6 +97,11 @@
         align-items: center;
         flex-direction: column;
         width: 200px;
+    }
+
+    .chats {
+        margin: 2em 0;
+        gap: 8em;
     }
 
 }
