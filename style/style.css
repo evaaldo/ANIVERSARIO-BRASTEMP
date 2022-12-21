@@ -1,0 +1,33 @@
+@import url(/style/cabecalho.css);
+@import url(/style/mostruario.css);
+@import url(/style/banner.css);
+@import url(/style/produtos.css);
+@import url(/style/detalhes.css);
+@import url(/style/contato.css);
+@import url(/style/rodape.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --branco: #fff;
+    --preto: #000;
+    --cinza-fundo: #e2e2e2;
+    --laranja: #FD703A;
+    --cinza: #5E5E5E;
+    --laranja-escuro: #EB5628;
+    --preto-rodape: #1d1d1b;
+}
+
+body {
+    background-color: var(--cinza-fundo);
+    font-family: 'Arial';
+}
+
+button {
+    cursor: pointer;
+}
+

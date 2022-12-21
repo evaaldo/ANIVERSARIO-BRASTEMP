@@ -1,0 +1,43 @@
+.mostruario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--branco);
+    padding: 1em;
+    margin: 0 1em;
+    gap: 1em;
+}
+
+.mostruario__subtitulo {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--laranja);
+    line-height: 120%;
+}
+
+.mostruario-paragrafos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.mostruario__paragrafo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .mostruario__subtitulo {
+        font-size: 2.5em;
+    }
+
+    .mostruario-paragrafos {
+        gap: .5em;
+        margin: 1em 0;
+    }
+
+}

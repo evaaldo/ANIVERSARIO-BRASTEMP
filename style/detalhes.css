@@ -1,0 +1,8 @@
+.detalhes {
+    margin: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    font-size: .8em;
+}

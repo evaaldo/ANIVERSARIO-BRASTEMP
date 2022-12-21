@@ -1,0 +1,101 @@
+.contato {
+    background-color: var(--cinza-fundo);
+}
+
+.contato-dados {
+    display: flex;
+    margin: 1.5em;
+}
+
+.chats {
+    display: flex;
+    gap: 1em;
+}
+
+.contato-dados-chat__titulo {
+    font-size: 1.5em;
+}
+
+.contato-dados-chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.contato-dados-chat__chats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+
+.contato-dados-numero {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    padding: 0 .5em;
+}
+
+.contato-dados-numero__telefone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+
+.contato-dados-numero__telefone-textos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contato-dados-chat__chats-rede {
+    font-weight: 700;
+}
+
+.contato-dados-chat__chats-link {
+    font-weight: 700;
+    color: var(--laranja-escuro);
+    text-decoration: none;
+}
+
+.contato-dados-numero__numero {
+    font-weight: 700;
+}
+
+.contato-dados-numero__localizacao {
+    font-size: .8em;
+}
+
+.linha-contato__desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .contato-dados-chat {
+        width: 50%;
+    }
+
+    .contato-dados-numero {
+        width: 50%;
+    }
+
+    .linha-contato__desktop {
+        display: block;
+    }
+
+    .contato-dados-numero__telefone-infos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 200px;
+    }
+
+}

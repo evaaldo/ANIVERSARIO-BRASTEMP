@@ -1,0 +1,211 @@
+.produtos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.produto {
+    display: flex;
+    gap: 1em;
+    margin: 1em;
+    align-items: center;
+}
+
+.produto-imagem__geladeira {
+    width: 114px;
+    height: 214px;
+}
+
+.produto-imagem__lava-seca {
+    width: 124px;
+    height: 149px;
+}
+
+.produto-imagem__fogao {
+    width: 135px;
+    height: 186px;
+}
+
+.produto-imagem__adega {
+    width: 141px;
+    height: 167px;
+}
+
+.produto-textos {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 200px;
+}
+
+.produto-texto__titulo {
+    text-transform: uppercase;
+}
+
+.produto-texto__descricao {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.produto-texto__link {
+    color: var(--laranja);
+}
+
+.linha {
+    width: 90%;
+    margin: 1em 0;
+}
+
+.produtos__titulo {
+    text-align: center;
+    color: var(--laranja);
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    margin: 0 .5em;
+}
+
+.produtos__botao {
+    background-color: var(--laranja);
+    color: var(--branco);
+    padding: 1em 2em;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    border-radius: 5px;
+    margin: 1.5em 0;
+}
+
+.produtos-textos__titulo {
+    text-align: center;
+    margin-top: .5em;
+}
+
+.produtos-textos__subtitulo {
+    text-align: center;
+}
+
+.produtos-textos__detalhes {
+    margin-top: 1em;
+    text-transform: uppercase;
+    color: var(--cinza);
+    text-align: center;
+}
+
+.titulo-grande {
+    margin-top: .5em;
+    font-size: 1.4em;
+    color: var(--laranja-escuro);
+    margin-bottom: 1em;
+}
+
+.selecao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selecao-produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+    width: 120px;
+}
+
+.selecao-produto-textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+
+.selecao-produto__link {
+    color: var(--laranja-escuro);
+    font-weight: 700;
+}
+
+.selecao-produto-textos__titulo {
+    text-align: center;
+}
+
+.selecao-produto-textos__modelo {
+    text-align: center;
+    font-size: .8em;
+}
+
+.selecao-produto-imagem__fogao {
+    width: 139px;
+    height: 159px;
+    margin-top: 2.5em;
+}
+
+.selecao-produto-imagem__geladeira {
+    width: 108px;
+    height: 200px;
+}
+
+.selecao-produto-imagem__maquina-lavar {
+    width: 111px;
+    height: 164px;
+    margin-top: 1.5em;
+}
+
+.produto-1__2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.produto-3__4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .produtos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .produto-1__2 {
+        flex-direction: row;
+        gap: 10em;
+    }
+
+    .linha-desktop {
+        display: none;
+    }
+
+    .produto-3__4 {
+        flex-direction: row;
+        gap: 10em;
+    }
+
+    .produtos__titulo {
+        margin: 1em 0;
+    }
+
+    .titulo-grande {
+        font-size: 3em;
+    }
+
+    .selecao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12em;
+    }
+
+}

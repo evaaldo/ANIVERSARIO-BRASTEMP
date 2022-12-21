@@ -1,0 +1,32 @@
+.banner {
+    background-color: var(--preto);
+    flex-direction: column;
+    padding: .5em 2em;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__texto {
+    width: 300px;
+}
+
+.banner-marca-aniversario {
+    width: 99px;
+    height: 34px;
+}
+
+.banner-promocao-aniversario {
+    width: 250px;
+    height: 24px;
+}
+
+.banner-maior {
+    padding: 2.5em 1em;
+}
+
+.banner-laranja {
+    background-color: var(--laranja);
+}
+
