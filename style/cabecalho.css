@@ -74,4 +74,9 @@
         background-color: var(--preto-fundo);
     }
 
+    .cabecalho__imagem-desktop {
+        width: 100%;
+        text-align: center;
+    }
+
 }
